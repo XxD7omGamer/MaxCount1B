@@ -15,6 +15,9 @@ class Nawaf1b extends PluginBase implements Listener {
         $this->getServer ()->getPluginManager ()->registerEvents ( $this, $this );
         
     }
+    public function getName(){
+      return "[1B]";
+    }
    public function onPE1B(\pocketmine\event\server\QueryRegenerateEvent $sev){
         switch(mt_rand(1,2)){
           case 1:
