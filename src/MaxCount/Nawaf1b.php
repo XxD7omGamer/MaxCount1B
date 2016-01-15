@@ -1,6 +1,6 @@
 <?php
 
-namespace MaxCount;
+namespace Nawaf1b;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
