@@ -19,7 +19,7 @@ class Nawaf1b extends PluginBase implements Listener {
       return "[1B]";
     }
    public function onPE1B(\pocketmine\event\server\QueryRegenerateEvent $sev){
-        switch(mt_rand(1,2)){
+        switch(mt_rand(1,3)){
           case 1:
                    $sev->setMaxPlayerCount(1000);
                 $sev->setPlayerCount(999);
