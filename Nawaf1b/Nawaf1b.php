@@ -1,7 +1,9 @@
 <?php
 namespace Nawaf1b;
+
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
+
 class Nawaf1b extends PluginBase implements Listener {
   
     public function onEnable() {
@@ -9,7 +11,6 @@ class Nawaf1b extends PluginBase implements Listener {
         $this->getLogger()->info(TextFormat::GREEN ."Plugin By Nawaf");
         $this->getLogger()->info(TextFormat::BLUE ."===============");
         $this->getServer ()->getPluginManager ()->registerEvents ( $this, $this );
-        
     }
     public function getName(){
       return "[1B]";
